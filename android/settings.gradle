@@ -1,0 +1,3 @@
+rootProject.name = 'CVApp'
+
+include ':app'
