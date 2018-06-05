@@ -40,8 +40,16 @@
 	<false/>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
+	<key>NSCameraUsageDescription</key>
+	<string>&lt;key&gt;NSCameraUsageDescription&lt;/key&gt;
+&lt;string&gt;Your message to user when the camera is accessed for the first time&lt;/string&gt;
+
+&lt;!-- Include this only if you are planning to use the camera roll --&gt;
+&lt;key&gt;NSPhotoLibraryUsageDescription&lt;/key&gt;
+&lt;string&gt;Your message to user when the photo library is accessed for the first time&lt;/string&gt;
+
+</string>
 	<key>NSAppTransportSecurity</key>
-	<!--See http://ste.vn/2015/06/10/configuring-app-transport-security-ios-9-osx-10-11/ -->
 	<dict>
 		<key>NSExceptionDomains</key>
 		<dict>
