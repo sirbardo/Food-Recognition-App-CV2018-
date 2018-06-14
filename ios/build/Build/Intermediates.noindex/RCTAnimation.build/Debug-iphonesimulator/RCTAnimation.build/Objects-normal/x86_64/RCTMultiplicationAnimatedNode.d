@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTMultiplicationAnimatedNode.m \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTMultiplicationAnimatedNode.h \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTValueAnimatedNode.h \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAnimatedNode.h
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTMultiplicationAnimatedNode.m \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTMultiplicationAnimatedNode.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTValueAnimatedNode.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAnimatedNode.h

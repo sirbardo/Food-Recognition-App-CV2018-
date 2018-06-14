@@ -8,8 +8,17 @@ import {
   View
 } from 'react-native';
 import { RNCamera } from 'react-native-camera';
+import {NativeModules} from 'react-native';
 
 export default class App extends React.Component {
+  
+  predic = "Sample"
+
+  constructor(){
+    super();
+
+  }
+  
   render() {
     return (
       <View style={styles.container}>
@@ -23,6 +32,9 @@ export default class App extends React.Component {
             permissionDialogTitle={'Permission to use camera'}
             permissionDialogMessage={'We need your permission to use your camera phone'}
         />
+        <Text style={{color: 'white'}}>
+            {this.predic}
+        </Text>
         <View style={{ flex: 0, flexDirection: 'row', justifyContent: 'center', }}>
           <TouchableOpacity
             onPress={this.takePicture.bind(this)}
@@ -36,11 +48,13 @@ export default class App extends React.Component {
   }
 
   takePicture = async function() {
-    if (this.camera) {
+    if (this.camera){
       const options = { quality: 0.5, base64: true };
       const data = await this.camera.takePictureAsync(options)
-      console.log(data.uri);
-      console.log(data.base64);
+      const PredictionManager = NativeModules.PredictionManager;
+      prediction = PredictionManager.predict(data.base64)
+      console.log("Prediction: "+{prediction})
+      this.predic = prediction
     }
   };  
 }

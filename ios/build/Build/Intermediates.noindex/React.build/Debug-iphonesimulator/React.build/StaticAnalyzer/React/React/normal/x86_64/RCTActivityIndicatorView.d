@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Views/RCTActivityIndicatorView.m \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Views/RCTActivityIndicatorView.h
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Views/RCTActivityIndicatorView.m \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Views/RCTActivityIndicatorView.h

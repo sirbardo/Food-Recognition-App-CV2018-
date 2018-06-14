@@ -1,7 +1,7 @@
 dependencies: \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryViewContent.m \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryViewContent.h \
-  /Users/bardoz/CV/CVApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
-  /Users/bardoz/CV/CVApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
-  /Users/bardoz/CV/CVApp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
-  /Users/bardoz/CV/CVApp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryViewContent.m \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryViewContent.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h

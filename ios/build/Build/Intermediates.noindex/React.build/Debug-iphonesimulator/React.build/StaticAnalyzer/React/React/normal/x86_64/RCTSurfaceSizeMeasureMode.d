@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Base/Surface/SurfaceHostingView/RCTSurfaceSizeMeasureMode.mm \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Base/Surface/SurfaceHostingView/RCTSurfaceSizeMeasureMode.h \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Base/RCTDefines.h
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Base/Surface/SurfaceHostingView/RCTSurfaceSizeMeasureMode.mm \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Base/Surface/SurfaceHostingView/RCTSurfaceSizeMeasureMode.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Base/RCTDefines.h

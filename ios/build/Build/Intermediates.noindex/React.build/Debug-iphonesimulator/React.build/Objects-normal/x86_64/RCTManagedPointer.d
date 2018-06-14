@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Base/RCTManagedPointer.mm \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Base/RCTManagedPointer.h
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Base/RCTManagedPointer.mm \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Base/RCTManagedPointer.h

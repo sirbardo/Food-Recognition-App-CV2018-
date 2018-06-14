@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Base/RCTErrorInfo.m \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Base/RCTErrorInfo.h \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Base/RCTJSStackFrame.h
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Base/RCTErrorInfo.m \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Base/RCTErrorInfo.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Base/RCTJSStackFrame.h

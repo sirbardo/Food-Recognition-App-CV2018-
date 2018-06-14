@@ -1,22 +1,22 @@
 dependencies: \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Views/ScrollView/RCTScrollContentView.m \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Views/ScrollView/RCTScrollContentView.h \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Views/RCTView.h \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Views/RCTBorderStyle.h \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Views/RCTComponent.h \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Views/RCTPointerEvents.h \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Base/RCTAssert.h \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Views/UIView+React.h \
-  /Users/bardoz/CV/CVApp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
-  /Users/bardoz/CV/CVApp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Views/ScrollView/RCTScrollView.h \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Base/RCTEventDispatcher.h \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Base/RCTBridge.h \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Base/RCTBridgeModule.h \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Base/RCTFrameUpdate.h \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Base/RCTInvalidating.h \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Views/ScrollView/RCTScrollableProtocol.h
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Views/ScrollView/RCTScrollContentView.m \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Views/ScrollView/RCTScrollContentView.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Views/RCTView.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Views/ScrollView/RCTScrollView.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Views/ScrollView/RCTScrollableProtocol.h

@@ -1,7 +1,7 @@
 dependencies: \
-  /Users/bardoz/Documents/CV/CVApp/node_modules/react-native/third-party/double-conversion-1.1.5/src/bignum-dtoa.cc \
-  /Users/bardoz/Documents/CV/CVApp/node_modules/react-native/third-party/double-conversion-1.1.5/src/bignum-dtoa.h \
-  /Users/bardoz/Documents/CV/CVApp/node_modules/react-native/third-party/double-conversion-1.1.5/src/utils.h \
-  /Users/bardoz/Documents/CV/CVApp/node_modules/react-native/third-party/double-conversion-1.1.5/src/bignum.h \
-  /Users/bardoz/Documents/CV/CVApp/node_modules/react-native/third-party/double-conversion-1.1.5/src/ieee.h \
-  /Users/bardoz/Documents/CV/CVApp/node_modules/react-native/third-party/double-conversion-1.1.5/src/diy-fp.h
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/third-party/double-conversion-1.1.5/src/bignum-dtoa.cc \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/third-party/double-conversion-1.1.5/src/bignum-dtoa.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/third-party/double-conversion-1.1.5/src/utils.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/third-party/double-conversion-1.1.5/src/bignum.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/third-party/double-conversion-1.1.5/src/ieee.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/third-party/double-conversion-1.1.5/src/diy-fp.h

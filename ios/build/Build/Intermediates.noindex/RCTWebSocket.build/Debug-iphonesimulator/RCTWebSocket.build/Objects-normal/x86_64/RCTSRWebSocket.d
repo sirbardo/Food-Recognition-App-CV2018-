@@ -1,7 +1,7 @@
 dependencies: \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/Libraries/WebSocket/RCTSRWebSocket.m \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/Libraries/WebSocket/RCTSRWebSocket.h \
-  /Users/bardoz/CV/CVApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
-  /Users/bardoz/CV/CVApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
-  /Users/bardoz/CV/CVApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
-  /Users/bardoz/CV/CVApp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/Libraries/WebSocket/RCTSRWebSocket.m \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/Libraries/WebSocket/RCTSRWebSocket.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h

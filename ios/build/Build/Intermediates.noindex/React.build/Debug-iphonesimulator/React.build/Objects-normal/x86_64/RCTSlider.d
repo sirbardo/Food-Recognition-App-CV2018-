@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Views/RCTSlider.m \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Views/RCTSlider.h \
-  /Users/bardoz/CV/CVApp/node_modules/react-native/React/Views/RCTComponent.h
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Views/RCTSlider.m \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Views/RCTSlider.h \
+  /Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/node_modules/react-native/React/Views/RCTComponent.h
