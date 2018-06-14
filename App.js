@@ -12,10 +12,11 @@ import {NativeModules} from 'react-native';
 
 export default class App extends React.Component {
   
-  predic = "Sample"
 
   constructor(){
     super();
+
+    this.state = { predictionToShow: ''}
 
   }
   
@@ -33,7 +34,7 @@ export default class App extends React.Component {
             permissionDialogMessage={'We need your permission to use your camera phone'}
         />
         <Text style={{color: 'white'}}>
-            {this.predic}
+            {this.state.predictionToShow}
         </Text>
         <View style={{ flex: 0, flexDirection: 'row', justifyContent: 'center', }}>
           <TouchableOpacity
@@ -54,7 +55,7 @@ export default class App extends React.Component {
       const PredictionManager = NativeModules.PredictionManager;
       prediction = PredictionManager.predict(data.base64)
       console.log("Prediction: "+{prediction})
-      this.predic = prediction
+      this.setState(() => {predictionToShow: prediction})
     }
   };  
 }
