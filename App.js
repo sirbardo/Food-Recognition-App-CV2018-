@@ -6,7 +6,8 @@ import {
   Text,
   TouchableOpacity,
   View,
-  Image
+  Image,
+  ImageBackground,
 } from 'react-native';
 import { RNCamera } from 'react-native-camera';
 import {NativeModules} from 'react-native';
@@ -51,15 +52,24 @@ export default class App extends React.Component {
       
 
       <View style={styles.imageContainer}>
-        <Image 
+        <ImageBackground 
           source={{uri: this.state.path}}
-          style={styles.canvas} 
-        />
-        <Text
-          style={styles.cancel}
-          onPress={() => this.setState({ path: null })}
-        >Cancel
-        </Text>
+          style={styles.image}>
+          <Text
+            style={styles.predictionText}
+          >
+          {this.state.predictionToShow}
+          </Text>
+
+          <TouchableOpacity
+            onPress={() => this.setState({ path: null })}
+            style={styles.cancelButton}
+          >
+            <Text>X</Text>
+          </TouchableOpacity>
+
+        </ImageBackground>
+        
       </View>
     );
   }
@@ -101,10 +111,34 @@ const styles = StyleSheet.create({
   },
   imageContainer: {
     flex: 1,
-    alignItems: 'stretch'
+    alignItems: 'stretch',
+    justifyContent: 'center',
   },
-  canvas: {
-    flex: 1
+  image: {
+    flexGrow:1,
+    height:null,
+    width:null,
+    alignItems: 'center',
+    justifyContent:'center',
+  },
+  cancelButton: {
+    position: 'absolute',
+    flex: 0,
+    backgroundColor: '#fff',
+    borderRadius: 100,
+    padding: 15,
+    paddingHorizontal: 20,
+    alignSelf: 'center',
+    margin: 20,
+    bottom: 5
+  },
+  predictionText: {
+    textAlign: 'center',
+    color: 'rgba(255,255,255,.8)',
+    fontSize: 80,
+    fontWeight: 'bold',
+    transform: [{ rotate: '-45deg'}]
+    
   },
   capture: {
     flex: 0,
