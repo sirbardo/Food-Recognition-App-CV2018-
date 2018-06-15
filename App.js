@@ -36,12 +36,19 @@ export default class App extends React.Component {
         permissionDialogTitle={'Permission to use camera'}
         permissionDialogMessage={'We need your permission to use your camera phone'}
       >
-        <View style={{ flex: 0, flexDirection: 'row', justifyContent: 'center', }}>
+        <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'center', }}>
           <TouchableOpacity
             onPress={this.takePicture.bind(this)}
             style={styles.capture}
           >
             <Text>What's this food!?</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            onPress={this.openGallery.bind(this)}
+            style={styles.gallery}
+          >
+            <Text>G</Text>
           </TouchableOpacity>
         </View>
       </RNCamera>
@@ -86,6 +93,34 @@ export default class App extends React.Component {
     );
   }
 
+  openGallery = function (){
+    var options = null
+    var ImagePicker = require('react-native-image-picker');
+    ImagePicker.launchImageLibrary(options, (response) => {
+      console.log('Response = ', response);
+    
+      if (response.didCancel) {
+        console.log('User cancelled image picker');
+      }
+      else if (response.error) {
+        console.log('ImagePicker Error: ', response.error);
+      }
+      else if (response.customButton) {
+        console.log('User tapped custom button: ', response.customButton);
+      }
+      else {
+        let source = { uri: response.uri };
+    
+        const PredictionManager = NativeModules.PredictionManager;
+        prediction = PredictionManager.predict(response.data, (predictionString) => {
+          this.setState(() => {return {predictionToShow: predictionString.prediction}});
+          this.setState(() => {return{path: source.uri}});
+      });
+      }
+    });
+
+  }
+
   takePicture = async function() {
     if (this.camera){
       const options = { quality: 0.5, base64: true};
@@ -98,6 +133,8 @@ export default class App extends React.Component {
     }
   };  
 }
+
+
 
 const styles = StyleSheet.create({
   container: {
@@ -151,7 +188,20 @@ const styles = StyleSheet.create({
     padding: 15,
     paddingHorizontal: 20,
     alignSelf: 'center',
-    margin: 20
+    margin: 20,
+    position: 'absolute',
+    bottom: 5
+  },
+  gallery: {
+    flex: 2,
+    backgroundColor: '#fff',
+    borderRadius: 100,
+    padding: 15,
+    paddingHorizontal: 20,
+    margin: 20,
+    position: 'absolute',
+    bottom: 5,
+    right: 80
   }
 });
 

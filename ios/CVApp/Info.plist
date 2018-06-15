@@ -44,8 +44,13 @@
 &lt;!-- Include this only if you are planning to use the camera roll --&gt;
 &lt;key&gt;NSPhotoLibraryUsageDescription&lt;/key&gt;
 &lt;string&gt;Your message to user when the photo library is accessed for the first time&lt;/string&gt;
+	
 
 </string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>$(PRODUCT_NAME) would like access to your photo gallery</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>$(PRODUCT_NAME) would like to save photos to your photo gallery</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
 	<key>UILaunchStoryboardName</key>
