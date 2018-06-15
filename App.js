@@ -8,6 +8,7 @@ import {
   View,
   Image,
   ImageBackground,
+  StatusBar,
 } from 'react-native';
 import { RNCamera } from 'react-native-camera';
 import {NativeModules} from 'react-native';
@@ -77,6 +78,9 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+      <StatusBar
+        barStyle="light-content"
+      />
         {this.state.path ? this.renderImage() : this.renderCamera()}
       </View>
     );
