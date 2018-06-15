@@ -8,9 +8,25 @@
 		<data>
 		E/310NIR/L8Kl1URLrnYqTEhNuo=
 		</data>
+		<key>libswiftRemoteMirror.dylib</key>
+		<data>
+		fBzQ3427HJPngohW5yNMzqB/SsU=
+		</data>
 	</dict>
 	<key>files2</key>
-	<dict/>
+	<dict>
+		<key>libswiftRemoteMirror.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fBzQ3427HJPngohW5yNMzqB/SsU=
+			</data>
+			<key>hash2</key>
+			<data>
+			j2plR+w2xlZZP2xTxHFadHroGgkMYoXFowBrAobsHws=
+			</data>
+		</dict>
+	</dict>
 	<key>rules</key>
 	<dict>
 		<key>^</key>

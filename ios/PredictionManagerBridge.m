@@ -12,8 +12,6 @@
 
 @interface RCT_EXTERN_MODULE(PredictionManager, NSObject)
 
-RCT_EXTERN_METHOD(predict:(NSString *)base64)
-
-
+RCT_EXTERN_METHOD(predict:(NSString *)base64 callback:(RCTResponseSenderBlock)callback)
 @end
 

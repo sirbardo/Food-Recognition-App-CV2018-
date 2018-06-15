@@ -16,7 +16,7 @@ export default class App extends React.Component {
   constructor(){
     super();
 
-    this.state = { predictionToShow: ''}
+    this.state = { predictionToShow: 'Sample'}
 
   }
   
@@ -50,12 +50,12 @@ export default class App extends React.Component {
 
   takePicture = async function() {
     if (this.camera){
-      const options = { quality: 0.5, base64: true };
+      const options = { quality: 0.5, base64: true , flashMode: 'off'};
       const data = await this.camera.takePictureAsync(options)
       const PredictionManager = NativeModules.PredictionManager;
-      prediction = PredictionManager.predict(data.base64)
-      console.log("Prediction: "+{prediction})
-      this.setState(() => {predictionToShow: prediction})
+      prediction = PredictionManager.predict(data.base64, (predictionString) => {
+        this.setState(() => {return {predictionToShow: predictionString.prediction}});
+    });
     }
   };  
 }
