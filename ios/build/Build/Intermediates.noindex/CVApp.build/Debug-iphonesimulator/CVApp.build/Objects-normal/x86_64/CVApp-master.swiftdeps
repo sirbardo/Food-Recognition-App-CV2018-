@@ -1,5 +1,5 @@
 version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
-options: "477a2f415419dc5a434f2e7f7584fa5f"
-build_time: [1528985542, 914672000]
+options: "3b44820ac77a3ab0041460e92c2a158b"
+build_time: [1529074324, 392668000]
 inputs:
-  "/Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/ios/PredictionManager.swift": [1528984421, 0]
+  "/Users/lucapitzalis/progetto_cv/Food-Recognition-App-CV2018-/ios/PredictionManager.swift": [1529068472, 0]

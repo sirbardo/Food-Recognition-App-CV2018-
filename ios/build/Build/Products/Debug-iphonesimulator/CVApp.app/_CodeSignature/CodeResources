@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		VsB2/Qw+5ASIo9FuTxMtQhh9vjI=
+		0j5ioCiEhshp/yxMyErpMyd9JOo=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
@@ -103,7 +103,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PAL+IoB9Irm5cckgLm+37QPjssM=
+		fVZ9aV7YrNpiGPUP1qipUk3y6Ms=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -115,11 +115,11 @@
 		</data>
 		<key>PlugIns/CVAppTests.xctest.dSYM/Contents/Resources/DWARF/CVAppTests</key>
 		<data>
-		VcMDEKkRf0mMdb6B3VCQEWpadYw=
+		hgz+OE9Z5mSMxqxyasZ/vaS2xBU=
 		</data>
 		<key>PlugIns/CVAppTests.xctest/CVAppTests</key>
 		<data>
-		znwE23n44Ii3mdyExA3VUt0Xva0=
+		0tf+HJY1AUK9bL/xyt0iR3V39rI=
 		</data>
 		<key>PlugIns/CVAppTests.xctest/Info.plist</key>
 		<data>
@@ -127,7 +127,11 @@
 		</data>
 		<key>PlugIns/CVAppTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		cTdliRMbi2ZcEUM7Ivv3RRNpV/M=
+		Vl674TY/DxcVUp+M0IE0OgHWRpc=
+		</data>
+		<key>PlugIns/CVAppTests.xctest/libswiftRemoteMirror.dylib</key>
+		<data>
+		fBzQ3427HJPngohW5yNMzqB/SsU=
 		</data>
 		<key>inception_v3.mlmodelc/coremldata.bin</key>
 		<data>
@@ -160,11 +164,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VsB2/Qw+5ASIo9FuTxMtQhh9vjI=
+			0j5ioCiEhshp/yxMyErpMyd9JOo=
 			</data>
 			<key>hash2</key>
 			<data>
-			6eZB2Cwe0AGM/ZAsoqtITgogYF0rcsWm7CjO86PYp+Q=
+			XXzZR0cZuG0DuGQjdQV1ls6jINlvwza3W+gj+k7reCQ=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
@@ -426,22 +430,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VcMDEKkRf0mMdb6B3VCQEWpadYw=
+			hgz+OE9Z5mSMxqxyasZ/vaS2xBU=
 			</data>
 			<key>hash2</key>
 			<data>
-			2XXX6KhYzCiCZIJai/chMJEhCSug/t75OhsP9qMtSR4=
+			i94iRvZlx1AVPKN0NiJ82NCpSil0krmR/g7einWhvSI=
 			</data>
 		</dict>
 		<key>PlugIns/CVAppTests.xctest/CVAppTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			znwE23n44Ii3mdyExA3VUt0Xva0=
+			0tf+HJY1AUK9bL/xyt0iR3V39rI=
 			</data>
 			<key>hash2</key>
 			<data>
-			UEXtoa43ZJWIHDnr2mobCs5h+oK1Pnthm0GKnB4Lt60=
+			Xa1f+mwGMpytkwtnMjLDOnS/yTkCeSULozTJyjMF9Ds=
 			</data>
 		</dict>
 		<key>PlugIns/CVAppTests.xctest/Info.plist</key>
@@ -459,11 +463,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cTdliRMbi2ZcEUM7Ivv3RRNpV/M=
+			Vl674TY/DxcVUp+M0IE0OgHWRpc=
 			</data>
 			<key>hash2</key>
 			<data>
-			0PZXcpKbkKjPUp7cgvmgmfTxzIVR2+i5Dd4N78K9OM8=
+			sOVpwS1/YAtYP6enlgilU6ldovsYr5Sp1DQjk6Hb6vM=
+			</data>
+		</dict>
+		<key>PlugIns/CVAppTests.xctest/libswiftRemoteMirror.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fBzQ3427HJPngohW5yNMzqB/SsU=
+			</data>
+			<key>hash2</key>
+			<data>
+			j2plR+w2xlZZP2xTxHFadHroGgkMYoXFowBrAobsHws=
 			</data>
 		</dict>
 		<key>inception_v3.mlmodelc/coremldata.bin</key>

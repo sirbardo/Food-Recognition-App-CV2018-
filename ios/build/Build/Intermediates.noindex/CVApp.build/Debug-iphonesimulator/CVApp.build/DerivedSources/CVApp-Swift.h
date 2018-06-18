@@ -164,6 +164,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if __has_feature(modules)
 @import ObjectiveC;
+@import UIKit;
+@import CoreGraphics;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -186,8 +188,14 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 SWIFT_CLASS_NAMED("PredictionManager")
 @interface PredictionManager : NSObject
 @property (nonatomic, readonly, strong) inception_v3 * _Null_unspecified model;
-- (NSString * _Nonnull)predict:(NSString * _Nullable)base64 SWIFT_WARN_UNUSED_RESULT;
+- (void)predict:(NSString * _Nullable)base64 callback:(SWIFT_NOESCAPE void (^ _Nonnull)(NSObject * _Nonnull))callback;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface UIImage (SWIFT_EXTENSION(CVApp))
+- (UIImage * _Nonnull)imageRotatedByDegreesWithDegrees:(CGFloat)degrees SWIFT_WARN_UNUSED_RESULT;
+- (UIImage * _Nonnull)fixedOrientation SWIFT_WARN_UNUSED_RESULT;
 @end
 
 #if __has_attribute(external_source_symbol)
